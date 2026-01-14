@@ -1,0 +1,11 @@
+Disk Mount
+lsblk- see partion
+fdisk /dev/vdb-create partition
+mkdir.ext4 /dev/vdb1- create file
+vi /etc/fstab - entry
+/dev/vdb1	/a01	ext4	defaults	0	0
+mkdir -p /a01- create mount point
+mount /dev/vdb1/a01- permanent mount
+df -h -see mound
+mount -a- see mount error
+lsblk-f - see all pertition
